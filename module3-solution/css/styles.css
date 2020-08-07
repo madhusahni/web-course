@@ -1,0 +1,101 @@
+/** HEADER **/
+#header-nav {
+  background-color: maroon;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color:white;
+  font-size:45px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 10px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+.jumbotron div{
+  font-size: 1.3em;
+  background-color:#ff7256;
+  margin-bottom:30px;
+  margin-left:auto;
+  margin-right: auto;
+  color:black; 
+}
+.jumbotron header{
+  text-align:center;
+  margin-bottom:10px;
+  font-size: 1.5em;
+  color: black;
+  font-weight: bold;
+  font-family: 'Oxygen', sans-serif;
+}
+.container .jumbotron{
+  height:1400px;
+  background-color:white;
+}
+h2{
+  font-size:40px;
+  margin-top:-30px;
+  text-shadow: 1px 1px 1px #222;
+}
+@media (min-width: 768px) {
+  #header-nav {
+    height:100px;
+  }
+}
+/* END HOME PAGE */
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 50px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 33px; /* 1vw = 1% of viewport width */
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.5em;
+  }
+   #collapsable-nav { 
+    background-color:#ee3b3b;
+  }
+   /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+    margin-right:30px;
+    margin-left:30px;
+  }
+}
+
